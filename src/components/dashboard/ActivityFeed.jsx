@@ -25,7 +25,7 @@ const TONES = {
   export: "neutral",
 };
 
-export function ActivityFeed({ items }) {
+export function ActivityFeed({ items = [] }) {
   return (
     <Card className="h-full flex flex-col">
       <CardHeader>
